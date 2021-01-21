@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 62.5%;
+}
+
+.parent {
+  border: 2px black dotted;
+  display: inline-block;
+}
+
+.box {
+  display: inline-block;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+#three {
+  position: relative;
+}
+
+#two {
+  background-color: green;
+  position: absolute;
+  top: 1.6rem;
+}
+
+
+
+

@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  /* border: 1px solid red; */
+  margin-bottom: 2rem;
+  background-color: #243f4e;
+}
+
+.figure img {
+  width: 60px;
+}
+.figure {
+  display: inline-block;
+}
+
+.nav {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 2.0rem;
+  margin-right: 1rem;
+}
+
+.nav__options {
+  list-style: none;
+  font-size: 1.6rem;
+  text-align: right;
+}
+
+.nav__options li {
+  display: inline-block;
+  padding: 0 1.6rem;
+  color: white;
+}
+
+.routes {
+  /* background-color: rgb(82, 192, 31); */
+  width: 20vw;
+  display: inline-block;
+  height: 100%;
+  border-radius: 1.6rem;
+  margin: 0 1.6rem;
+}
+
+.routes__images img {
+  width: 90%;
+  display: block;
+  padding: 1.6rem 1rem;
+  border-radius: 2.6rem;
+}
+
+.main {
+  position: absolute;
+  display: inline-block;
+  padding: 0 1.6rem;
+  margin: 0 auto;
+  width: 70vw;
+}
+
+.main-container__img img {
+  padding: 0 1rem;
+  margin: 0 1rem;
+  border-radius: 20px;
+}
+
+.main-container {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.addroute__icon img {
+  width: 30px;
+  background-color:cornflowerblue;
+  border-radius: 50%;
+
+}
+.addroute__icon {
+  display: inline-block;
+  padding: 0 1rem;
+  color: blue;
+}
+
+.addroute {
+  display: inline-block;
+  width: 85%;
+  padding: 1rem;
+  border:2px dotted blue;
+  margin:1rem;
+}
+
+.addroute p {
+  display: inline-block;
+  position: absolute;
+  font-size: 1.4rem;
+  color: blue;
+}
